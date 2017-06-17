@@ -1,0 +1,13 @@
+﻿  MakingChanges.cpp
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(49): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(60): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(65): warning C4018: '<': signed/unsigned mismatch
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(67): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(67): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(78): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(86): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\develop\andorid\visual_studio_2017_workspace\projects\makingchanges\makingchanges\makingchanges.cpp(88): warning C4018: '<': signed/unsigned mismatch
+  MakingChanges.vcxproj -> D:\Develop\Andorid\Visual_Studio_2017_WorkSpace\Projects\MakingChanges\Debug\MakingChanges.exe
+  MakingChanges.vcxproj -> D:\Develop\Andorid\Visual_Studio_2017_WorkSpace\Projects\MakingChanges\Debug\MakingChanges.pdb (Partial PDB)
