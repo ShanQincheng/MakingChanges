@@ -58,7 +58,7 @@ IDE                                   Visual Studio 2017
   * 要找 6 塊錢, 那麼 leftoverMoney[ 6 ] = = 1, 因為需要**1 張 6 塊錢** 就能找完。
   * **. . .**
 
-leftoverMoney[ i ] 需要注意的是，這是  The least #conins to make change for.
+leftoverMoney[ i ] 需要注意的是，這是  The least #conins to make change for i.
 例如我們要找零 4 塊錢。 可以是 找零**4 張 1 塊錢 一共 4 張**，或是 找零 **1張 4 塊錢 一共 1 張**。我們要從所有可能找零的可能性中**選出找零錢數量最少的那一種**。
 
 
