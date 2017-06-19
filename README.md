@@ -7,7 +7,7 @@
 
 使用 Dynamic Programming 實現，可得 Optimal Solution。  
 **[Source codes have been uploaded to github](https://github.com/ShanQincheng/MakingChanges)**
-![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/0002.png)
+![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/0002.jpg)
 
 ***
 # 環境
@@ -64,6 +64,9 @@ leftoverMoney[ i ] 需要注意的是，這是  The least #conins to make change
 
 **為了更好的理解，請看下圖**
 ![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/002.png)
+
+
+
 **假設我們需要找 8 塊錢，用上圖的思路列表如下**
 ![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/004.png)
 
