@@ -7,7 +7,7 @@
 
 使用 Dynamic Programming 實現，可得 Optimal Solution。  
 **[Source codes have been uploaded to github](https://github.com/ShanQincheng/MakingChanges)**
-![](http://codingstory.com.cn/content/images/2017/06/0002-1.jpg)
+![](/content/images/2017/06/0002-1.jpg)
 
 ***
 # 環境
@@ -31,7 +31,7 @@ IDE                                   Visual Studio 2017
 * Generally achieve the **optimal solution**.
 
 * **Design Strategy**
-![](http://codingstory.com.cn/content/images/2017/06/Untitled-2.png)
+![](/content/images/2017/06/Untitled-2.png)
 
 ***
 
@@ -46,23 +46,26 @@ IDE                                   Visual Studio 2017
 
 ###### ( 2 ) 列表法
 
-* 設面額 ( Bases ) base 0 <= base 1 <= ... <= base k  
-**E.g.** ( 有三種面額的錢, 1塊， 2塊， 5塊, 那麼 base 0 = 1, base 1 = 2, base 3 = 5, k == 3 )
+* 設面額 ( Bases ) base 1 <= base 2 <= ... <= base k  
+**E.g.** ( 有三種面額的錢, 1塊， 4塊， 6塊, 那麼 base 1 = 1, base 2 = 4, base 3 = 6, k == 3 )
 
 * 設 leftoverMoney[ i ] ( The least #conis to make change for i )  
-  * 要找 1 塊錢, 那麼 leftoverMoney[ 1 ] = = 1, 因為只需要**一張 1 塊錢**就能找完。
-  * 要找 2 塊錢, 那麼 leftoverMoney[ 2 ] = = 1, 因為只需要**一張 2 塊錢**就能找完。
-  * 要找 3 塊錢, 那麼 leftoverMoney[ 3 ] = = 2, 因為需要**一張 2 塊錢 和 一張 1 塊錢** 就能找完。
+  * 要找 1 塊錢, 那麼 leftoverMoney[ 1 ] = = 1, 因為需要**1 張 1 塊錢**就能找完。
+  * 要找 2 塊錢, 那麼 leftoverMoney[ 2 ] = = 2, 因為需要**2 張 1 塊錢**就能找完。
+  * 要找 3 塊錢, 那麼 leftoverMoney[ 3 ] = = 2, 因為需要**3 張 1 塊錢** 就能找完。
+  * 要找 4 塊錢, 那麼 leftoverMoney[ 4 ] = = 1, 因為需要**1 張 4 塊錢** 就能找完。
+  * 要找 5 塊錢, 那麼 leftoverMoney[ 5 ] = = 2, 因為需要**1 張 4 塊錢 和 1 張 1 塊錢** 就能找完。
+  * 要找 6 塊錢, 那麼 leftoverMoney[ 6 ] = = 1, 因為需要**1 張 6 塊錢** 就能找完。
   * **. . .**
 
 leftoverMoney[ i ] 需要注意的是，這是  The least #conins to make change for.
-例如我們要找零 3 塊錢。 可以是 找零**三張 1 塊錢**，或是 找零 **一張 1 塊錢加一張 2 塊錢 一共 2 張**。我們要從所有可能找零的可能性中**選出找零錢數量最少的那一種**。
+例如我們要找零 4 塊錢。 可以是 找零**4 張 1 塊錢 一共 4 張**，或是 找零 **1張 4 塊錢 一共 1 張**。我們要從所有可能找零的可能性中**選出找零錢數量最少的那一種**。
 
 
 **為了更好的理解，請看下圖**
-![](http://codingstory.com.cn/content/images/2017/06/10H58PICBQa_1024.png)
+![](/content/images/2017/06/10H58PICBQa_1024.png)
 **假設我們需要找 8 塊錢，用上圖的思路列表如下**
-![](http://codingstory.com.cn/content/images/2017/06/10H58PICBQa_1024-1.png)
+![](/content/images/2017/06/10H58PICBQa_1024-1.png)
 
 ***
 
@@ -182,7 +185,3 @@ int main()
 ***
 # 以上
 2017 年 6 月 17 日
-
-
-
-
