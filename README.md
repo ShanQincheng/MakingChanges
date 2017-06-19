@@ -7,7 +7,7 @@
 
 使用 Dynamic Programming 實現，可得 Optimal Solution。  
 **[Source codes have been uploaded to github](https://github.com/ShanQincheng/MakingChanges)**
-![](http://codingstory.com.cn/content/images/2017/06/0002-1.jpg)
+![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/0002.png)
 
 ***
 # 環境
@@ -31,7 +31,7 @@ IDE                                   Visual Studio 2017
 * Generally achieve the **optimal solution**.
 
 * **Design Strategy**
-![](http://codingstory.com.cn/content/images/2017/06/Untitled-2.png)
+![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/003.png)
 
 ***
 
@@ -63,9 +63,9 @@ leftoverMoney[ i ] 需要注意的是，這是  The least #conins to make change
 
 
 **為了更好的理解，請看下圖**
-![](http://codingstory.com.cn/content/images/2017/06/10H58PICBQa_1024.png)
+![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/002.png)
 **假設我們需要找 8 塊錢，用上圖的思路列表如下**
-![](http://codingstory.com.cn/content/images/2017/06/10H58PICBQa_1024-1.png)
+![](https://github.com/ShanQincheng/MakingChanges/blob/master/Description/004.png)
 
 ***
 
