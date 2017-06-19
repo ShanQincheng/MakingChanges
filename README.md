@@ -50,8 +50,8 @@ IDE                                   Visual Studio 2017
 **E.g.** ( 有三種面額的錢, 1塊， 4塊， 6塊, 那麼 base 1 = 1, base 2 = 4, base 3 = 6, k == 3 )
 
 * 設 leftoverMoney[ i ] ( The least #conis to make change for i )  
-  * 要找 1 塊錢, 那麼 leftoverMoney[ 1 ] = = 1, 因為需要**1 張 1 塊錢**就能找完。
-  * 要找 2 塊錢, 那麼 leftoverMoney[ 2 ] = = 2, 因為需要**2 張 1 塊錢**就能找完。
+  * 要找 1 塊錢, 那麼 leftoverMoney[ 1 ] = = 1, 因為需要**1 張 1 塊錢** 就能找完。
+  * 要找 2 塊錢, 那麼 leftoverMoney[ 2 ] = = 2, 因為需要**2 張 1 塊錢** 就能找完。
   * 要找 3 塊錢, 那麼 leftoverMoney[ 3 ] = = 3, 因為需要**3 張 1 塊錢** 就能找完。
   * 要找 4 塊錢, 那麼 leftoverMoney[ 4 ] = = 1, 因為需要**1 張 4 塊錢** 就能找完。
   * 要找 5 塊錢, 那麼 leftoverMoney[ 5 ] = = 2, 因為需要**1 張 4 塊錢 和 1 張 1 塊錢** 就能找完。
